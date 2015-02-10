@@ -1,0 +1,6 @@
+make() { if [ $1 = "al" ]; then 
+	cat ~/.extras/al;
+else
+	make $#;
+fi
+}

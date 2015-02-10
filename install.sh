@@ -1,0 +1,1 @@
+echo ". ~/.extras/bashinc" >> ~/.bashrc
