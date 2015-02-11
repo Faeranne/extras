@@ -4,3 +4,5 @@ else
 	make $#;
 fi
 }
+
+dug() { echo $1 | sed 's/https\?:\/\///' | dig; }
