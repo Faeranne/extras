@@ -11,7 +11,7 @@ url=`echo $url | sed 's/\/$//'`;
 ip=`command dig $url +short`;
 reverseip=`command dig -x $ip +short`;
 nameservers=`whois $url | grep 'Name Server' | sed 's/Name\ Server\://' | sed 's/\ //g'`
-echo $ip;
-echo $reverseip;
-echo $nameservers;
+echo 'IP Address: '$ip;
+echo 'Reverse IP: '$reverseip;
+echo 'Name Servers:' $nameservers;
 }
