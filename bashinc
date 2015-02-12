@@ -14,3 +14,6 @@ echo $ip;
 echo $reverseip;
 }
 
+function mykey() {
+	cat ~/.ssh/id_rsa.pub
+}
