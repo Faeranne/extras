@@ -9,3 +9,7 @@ readme() {
 	cat README*
 }
 . ~/.extras/dig
+
+function mykey() {
+	cat ~/.ssh/id_rsa.pub
+}
