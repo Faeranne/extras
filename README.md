@@ -15,3 +15,6 @@ git clone git@github.com/mrmakeit/extras.git .extras
 
 `readme` - cat's the README file in the current directory, regardless of
 extension
+
+`mykey` - return your current id_rsa.pub key. From
+[terrillo](https://github.com/terrillo/extras)
