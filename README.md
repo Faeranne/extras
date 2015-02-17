@@ -17,4 +17,7 @@ git clone git@github.com/mrmakeit/extras.git .extras
 extension
 
 `mykey` - return your current id_rsa.pub key. From
-[terrillo](https://github.com/terrillo/extras)
+[terrillo](https://github.com/terrillo)
+
+`rainbow` - prints a continuous rainbow down your screen.  From
+[richardbenjamin](https://github.com/richardbenjamin)
