@@ -1,3 +1,5 @@
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+export PATH=$PATH:$DIR/bin/
 make() { if [ $1 = "al" ]; then 
 	cat ~/.extras/al;
 else

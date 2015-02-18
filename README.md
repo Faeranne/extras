@@ -10,7 +10,6 @@ git clone git@github.com/mrmakeit/extras.git .extras
 
 ## Current commands
 `make al` - inspired by [mofarrell's](https://github.com/mofarrell) [commit message](https://github.com/mofarrell/p2pvc/commit/8fae99fea574472fc7adb539969ac85c6c77d40f) 
-
 `dig` - accepts and strips http[s] from dig requests.  copypasta away!
 
 `readme` - cat's the README file in the current directory, regardless of
@@ -21,3 +20,6 @@ extension
 
 `rainbow` - prints a continuous rainbow down your screen.  From
 [richardbenjamin](https://github.com/richardbenjamin)
+
+`show_status` - prints the git status of each subdirectory. Borrowed from
+[Mike Pearce](https://github.com/MikePearce)
