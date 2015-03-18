@@ -27,3 +27,5 @@ extension
 
 `calc` - Does math. Found: http://unix.stackexchange.com/questions/30478/doing-simple-math-on-the-command-line-using-bash-functions-1-divided-by-2-us
 ex: 'calc 5000/25' output: 200
+
+`ytconvert` - convert videos into a compact 'YouTube' compatable format.
