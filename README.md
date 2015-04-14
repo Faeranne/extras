@@ -29,3 +29,6 @@ extension
 ex: 'calc 5000/25' output: 200
 
 `ytconvert` - convert videos into a compact 'YouTube' compatable format.
+
+`screenOff` - turn off all monitors. Found:
+http://www.commandlinefu.com/commands/view/14150/turn-monitor-on-or-off-if-off-or-on-respectively
