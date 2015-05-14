@@ -34,3 +34,8 @@ screenOff() {
 myIP() {
 	curl ifconfig.me
 }
+
+function dance() {
+        sudo service $1 restart
+}
+
