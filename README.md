@@ -19,6 +19,9 @@ extension
 `mykey` - return your current id_rsa.pub key. From
 [terrillo](https://github.com/terrillo)
 
+`dance` - quickly restart packages. From
+[terrillo](https://github.com/terrillo)
+
 `rainbow` - prints a continuous rainbow down your screen.  From
 [richardbenjamin](https://github.com/richardbenjamin)
 
