@@ -1,5 +1,8 @@
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 export PATH=$PATH:$DIR/bin/
+. $DIR/dig
+. $DIR/alias
+
 make() { if [ $1 = "al" ]; then 
 	cat $DIR/al;
 else
@@ -10,11 +13,11 @@ fi
 readme() {
 	cat README*
 }
-. $DIR/dig
 
 function mykey() {
 	cat ~/.ssh/id_rsa.pub
 }
+
 function rainbow() {
 	yes "$(seq 1 255)" | while read i; do printf "\x1b[48;5;${i}m\n"; sleep .01; done
 }
