@@ -3,10 +3,10 @@ export PATH=$PATH:$DIR/bin/
 . $DIR/dig
 . $DIR/alias
 
-make() { if [ $1 = "al" ]; then 
+make() { if [ "$1" = "al" ]; then 
 	cat $DIR/al;
 else
-	make $@;
+	command make $@;
 fi
 }
 
